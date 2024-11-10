@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e278a06d4fa78527b13971c6279d3e89 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e278a06d4fa78527b13971c6279d3e89" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e278a06d4fa78527b13971c6279d3e89 = L.map(
+                "map_e278a06d4fa78527b13971c6279d3e89",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d9656fabb0785a0ee392b039105d2fdf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d9656fabb0785a0ee392b039105d2fdf.addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+            var marker_e2306dff1ede9e218fc191f6e35916b5 = L.marker(
+                [38.7703323364258, -122.735336303711],
+                {}
+            ).addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+        var popup_c20b8effe58e1c13776a33a2c1f797f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c58e0df48c78195977c4c43be204f025 = $(`<div id="html_c58e0df48c78195977c4c43be204f025" style="width: 100.0%; height: 100.0%;"> Lugar: 2 km SE of The Geysers, CA, Magnitud: 0.85</div>`)[0];
+                popup_c20b8effe58e1c13776a33a2c1f797f2.setContent(html_c58e0df48c78195977c4c43be204f025);
+            
+        
+
+        marker_e2306dff1ede9e218fc191f6e35916b5.bindPopup(popup_c20b8effe58e1c13776a33a2c1f797f2)
+        ;
+
+        
+    
+    
+            var marker_0f1e58ce3f67fdc9c86a64425c5b5eeb = L.marker(
+                [63.0243, -151.0283],
+                {}
+            ).addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+        var popup_b6e60a286ffe2028cf1b3f6b1a1d95fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dda30837e2901f583f92dbc46073837d = $(`<div id="html_dda30837e2901f583f92dbc46073837d" style="width: 100.0%; height: 100.0%;"> Lugar: 60 km NNW of Petersville, Alaska, Magnitud: 1.9</div>`)[0];
+                popup_b6e60a286ffe2028cf1b3f6b1a1d95fa.setContent(html_dda30837e2901f583f92dbc46073837d);
+            
+        
+
+        marker_0f1e58ce3f67fdc9c86a64425c5b5eeb.bindPopup(popup_b6e60a286ffe2028cf1b3f6b1a1d95fa)
+        ;
+
+        
+    
+    
+            var marker_4c9710bf4d553447911101a6c0e3aac8 = L.marker(
+                [33.9431667, -116.9701667],
+                {}
+            ).addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+        var popup_f1e3aa537a5849d097e699dc03a21d1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45a33ec1a6d57f914025c803a9bc2de2 = $(`<div id="html_45a33ec1a6d57f914025c803a9bc2de2" style="width: 100.0%; height: 100.0%;"> Lugar: 2 km NNE of Beaumont, CA, Magnitud: 0.81</div>`)[0];
+                popup_f1e3aa537a5849d097e699dc03a21d1e.setContent(html_45a33ec1a6d57f914025c803a9bc2de2);
+            
+        
+
+        marker_4c9710bf4d553447911101a6c0e3aac8.bindPopup(popup_f1e3aa537a5849d097e699dc03a21d1e)
+        ;
+
+        
+    
+    
+            var marker_42113251d3c3d4ae5aea93810f419360 = L.marker(
+                [33.9386667, -117.1801667],
+                {}
+            ).addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+        var popup_bba064083865bf17693bb189b685980a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58b34ec5dae1737cf1f833cd4e4210f4 = $(`<div id="html_58b34ec5dae1737cf1f833cd4e4210f4" style="width: 100.0%; height: 100.0%;"> Lugar: 5 km ENE of Moreno Valley, CA, Magnitud: 1.88</div>`)[0];
+                popup_bba064083865bf17693bb189b685980a.setContent(html_58b34ec5dae1737cf1f833cd4e4210f4);
+            
+        
+
+        marker_42113251d3c3d4ae5aea93810f419360.bindPopup(popup_bba064083865bf17693bb189b685980a)
+        ;
+
+        
+    
+    
+            var marker_42facdbada9d5966cd1fe3577b71f915 = L.marker(
+                [38.8273315429688, -122.858665466309],
+                {}
+            ).addTo(map_e278a06d4fa78527b13971c6279d3e89);
+        
+    
+        var popup_911b88d23090b30badaa7fca5022c438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63624ba8ba96f3341041ecaaa162954c = $(`<div id="html_63624ba8ba96f3341041ecaaa162954c" style="width: 100.0%; height: 100.0%;"> Lugar: 10 km NW of The Geysers, CA, Magnitud: 0.28</div>`)[0];
+                popup_911b88d23090b30badaa7fca5022c438.setContent(html_63624ba8ba96f3341041ecaaa162954c);
+            
+        
+
+        marker_42facdbada9d5966cd1fe3577b71f915.bindPopup(popup_911b88d23090b30badaa7fca5022c438)
+        ;
+
+        
+    
+</script>
+</html>
